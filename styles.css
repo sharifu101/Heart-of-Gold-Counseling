@@ -1,0 +1,230 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #fdfdfd;
+  padding: 15px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* Logo left, menu right */
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: #004c97;
+  font-weight: 600;
+  font-style: italic
+}
+
+/* Dropdown */
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  top: 100%;
+  left: 0;
+  padding: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown-menu li {
+  padding: 8px 20px;
+}
+
+nav .dropdown-menu a {
+  color: #004c97;
+}
+
+
+/* Hero */
+.hero {
+  background: linear-gradient(120deg, #b3e5fc, #fffde7);
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 4px solid #fbc02d;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #004c97;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  background: #fbc02d;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #004c97;
+}
+
+/* Free Download */
+.free-download {
+  background: #ffecb3;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.free-download h2 {
+  margin-bottom: 15px;
+  color: #004c97;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #fffde7;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #004c97;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #fbc02d;
+}
+
+/* Kids Zone */
+.kids-zone {
+  background: #b3e5fc;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.kids-zone h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #004c97;
+}
+
+.kids-zone p {
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+
+.kids-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.kids-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.kids-card img {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.kids-card h3 {
+  color: #f57c00;
+  margin-bottom: 10px;
+}
+
+.kids-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.kids-card img {
+  height: 80px;              /* make slightly bigger */
+  width: 80px;               /* keep square for perfect circle */
+  object-fit: cover;         /* ensures image fits well */
+  margin-bottom: 15px;
+  border-radius: 50%;        /* makes it circular */
+  background: #fff8e1;       /* soft background for contrast */
+  padding: 10px;             /* some space around image */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+
+/* Footer */
+footer {
+  background: #004c97;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
