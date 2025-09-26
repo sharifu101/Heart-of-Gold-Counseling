@@ -130,95 +130,14 @@ nav .dropdown-menu a {
   color: #004c97;
 }
 
-/* Testimonials */
-.testimonials {
-  background: #fffde7;
-  padding: 60px 20px;
-  text-align: center;
+.download-image {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
 }
 
-.testimonials h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: #004c97;
-}
-
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
-
-.testimonial-card {
-  background: #fff;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  font-style: italic;
-}
-
-.testimonial-card h4 {
-  margin-top: 15px;
-  font-weight: 600;
-  color: #fbc02d;
-}
-
-/* Kids Zone */
-.kids-zone {
-  background: #b3e5fc;
-  padding: 70px 20px;
-  text-align: center;
-}
-
-.kids-zone h2 {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
-  color: #004c97;
-}
-
-.kids-zone p {
-  margin-bottom: 40px;
-  font-size: 1.1rem;
-}
-
-.kids-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-}
-
-.kids-card {
-  background: #fff;
-  border-radius: 20px;
-  padding: 25px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.kids-card img {
-  height: 60px;
-  margin-bottom: 15px;
-}
-
-.kids-card h3 {
-  color: #f57c00;
-  margin-bottom: 10px;
-}
-
-.kids-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
-}
-
-.kids-card img {
-  height: 80px;              /* make slightly bigger */
-  width: 80px;               /* keep square for perfect circle */
-  object-fit: cover;         /* ensures image fits well */
-  margin-bottom: 15px;
-  border-radius: 50%;        /* makes it circular */
-  background: #fff8e1;       /* soft background for contrast */
-  padding: 10px;             /* some space around image */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow */
-}
 
 
 /* Footer */
