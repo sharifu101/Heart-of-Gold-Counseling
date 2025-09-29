@@ -140,6 +140,18 @@ nav .dropdown-menu a {
 
 
 
+/* Blue button specifically for download */
+.btn-blue {
+  background: #004c97;   /* Blue background */
+  color: #fff;           /* White text */
+}
+
+.btn-blue:hover {
+  background: #003366;   /* Darker blue on hover */
+}
+
+
+
 /* Footer */
 footer {
   background: #004c97;
